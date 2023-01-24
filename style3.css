@@ -1,0 +1,95 @@
+a {
+  color:white;
+  font-family: 'Cabin', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color:lightgray;
+}
+
+a.phone {
+  text-transform: uppercase;
+  background-color: blue;
+  border-color: blue;
+  border-style: solid;
+  border-radius: 12px;
+  border-width: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 5px;
+
+  display: inline-block;
+  text-align: center;
+}
+
+a.phone:hover {
+  color: white;
+  background-color: rgb(101, 75, 160);
+  border-color: rgb(101, 75, 160);
+}
+
+.navbar {
+  color: black;
+  background-color: white;
+  position:fixed;
+  top:0;
+  width: 100%;
+}
+
+.navbar:hover {
+  color: black;
+  background-color: white;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  margin: 0;
+}
+
+.main-header, .logo-wrapper, .main-navigation, .hero-box
+{
+  background-color: black;
+  color:white;
+}
+
+h1, .servise-item, .service-title, .special, ul {
+  margin-left: 200px;
+  width: 450px; 
+}
+
+h1, h3, .big-numbers
+{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+h2 
+{
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul
+{
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+li.stats-item {margin-top: 60px;
+  margin-bottom: 60px;}
+
+.stats-wrapper-first {
+  margin-top: 60px;
+}
+
+
+footer {
+    color: rgb(248, 249, 248); 
+    background-color: rgb(5, 5, 5);
+    font-size: small;  
+  }
